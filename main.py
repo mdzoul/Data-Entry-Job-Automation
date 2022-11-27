@@ -76,3 +76,5 @@ for i in range(len(link_list)):
     property_link.send_keys(link_list[i])
     driver.find_element(By.XPATH, '//*[@id="mG61Hd"]/div[2]/div/div[3]/div[1]/div[1]/div').click()
     driver.find_element(By.LINK_TEXT, 'Submit another response').click()
+
+driver.quit()
